@@ -588,9 +588,21 @@ a {
 
 /* add testimonial card */
 .card {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 	gap: 3em;
+}
+
+@media(min-width: 1980px) {
+	.card {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 3em;
+	}
 }
 
 figure.snip1192 {
