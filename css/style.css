@@ -355,7 +355,7 @@ body {
 }
 
 img {
-	max-width: 100%;
+	max-width: 30%;
 	height: auto;
 }
 
@@ -456,8 +456,14 @@ body {
 	/* height: 100vh;
     width: 100%; */
 	flex-direction: column;
-	background-image: url("/assets/img/20800062.jpg");
-	background-size: cover;
+	background: rgb(245,215,183);
+	background: linear-gradient(45deg, rgba(245,215,183,1) 18%, rgba(246,230,212,1) 25%, rgba(243,240,231,1) 50%, rgba(247,241,225,1) 75%, rgba(241,224,181,1) 82%);
+
+	/*background: rgb(255,255,255);
+	background: linear-gradient(92deg, rgba(255,255,255,1) 0%, rgba(242,225,182,1) 100%);*/
+
+	/*background-image: url("/assets/img/20800062.jpg");
+	background-size: contain;*/
 }
 
 .title {
@@ -581,6 +587,12 @@ a {
 }
 
 /* add testimonial card */
+.card {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 3em;
+}
+
 figure.snip1192 {
 	font-family: 'Raleway', Arial, sans-serif;
 	position: relative;
