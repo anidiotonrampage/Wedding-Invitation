@@ -683,6 +683,9 @@ figure.snip1192 .author h5 span {
 /* Photo Gallery */
 #photos {
 	opacity: .88;
+	justify-content: center;
+	justify-self: center;
+	justify-items: center;
 }
 
 #photos img {
@@ -724,4 +727,12 @@ ul {
 
 #photo-gallery {
 	width: 100%;
+}
+
+.grid-layout {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1em 1em;
+	grid-auto-flow: row;
+	justify-content: center; 
 }
