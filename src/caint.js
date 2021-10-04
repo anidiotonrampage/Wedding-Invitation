@@ -3,7 +3,7 @@
 const uri = 'https://api.caint.casa/api/Comments';
 const threadUri = 'https://api.caint.casa/api/Threads';
 
-const threadHost = "https://selamat-ee-suhu.netlify.app";
+const threadHost = "https://selamat-suhu-mikasaahhh.netlify.app/";
 const threadPath = document.location.pathname;
 
 const thisThread = getThreadId();
